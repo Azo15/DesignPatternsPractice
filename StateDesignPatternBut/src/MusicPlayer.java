@@ -13,9 +13,6 @@ public class MusicPlayer {
     public void setState(PlayerState State) {
         this.currentState = State;
     }
-    public PlayerState getCurrentState() {
-        return currentState;
-    }
     public void pressPlay() {
         currentState.pressPlay();
     }
